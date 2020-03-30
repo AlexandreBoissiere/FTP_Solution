@@ -12,5 +12,5 @@ After that, execute FTP_Server.exe on the server (the application use the port 5
 FTP_Client.exe on the clients (the application use the port 5030, so verify if this port is available).
 
 FTP_Client will ask you the server's IP Adress (you can get it by doing an ipconfig command in cmd.exe on the server) and then
-choose a mode (write, read, append), give the filename of the file to use and filnally if you'va choosen write or append mode,
+choose a mode (write, read, append), give the filename of the file to use and filnally if you've choosen write or append mode,
 the application will ask you the text to write ot to append.
