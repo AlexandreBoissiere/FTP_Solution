@@ -14,3 +14,5 @@ FTP_Client.exe on the clients (the application use the port 5030, so verify if t
 FTP_Client will ask you the server's IP Adress (you can get it by doing an ipconfig command in cmd.exe on the server) and then
 choose a mode (write, read, append), give the filename of the file to use and filnally if you've choosen write or append mode,
 the application will ask you the text to write ot to append.
+
+Integration of FTP_Client (GUI) for the 30/03/2020 at 9:30 PM no later than.
