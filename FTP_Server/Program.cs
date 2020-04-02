@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Total_library.Network;
 using static Total_library.Network.Com;
@@ -15,6 +16,7 @@ namespace FTP_Server
         {
             Server server = new Server();
             int initialCount = server.got.Count;
+            Console.WriteLine("LISTENING...");
             
             while (true)
             {
